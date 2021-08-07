@@ -1,0 +1,208 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+nav#navbar{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 60px;
+    background: #005f69;
+    align-items: center;
+}
+
+.logo{
+    color: ivory;
+    font-family: 'Fredoka One', cursive;
+    font-size: 30px;
+}
+/* .search-bar{
+    height: 20px;
+} */
+
+@media screen and (max-width: 785px) {
+    nav#navbar{
+        flex-direction: column;
+    }
+    .first-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    
+    }
+    .second-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .third-container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        
+    }
+    .contact-icon{
+        padding: 5px;
+        display: grid;
+        
+        /* display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; */
+        
+    }
+
+
+}
+
+/* FIRST SECTION OF THE PAGE */
+
+.first-container{
+    display: flex;
+    justify-content: space-between;
+
+
+
+}
+.learn{
+    margin: 20px;
+}
+.learn span img{
+    width: 100%;
+    height: 100%;
+
+    
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    color: #005f69;
+    margin: 35px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'WindSong', cursive;
+ }
+
+/* SECOND SECTION OF THE PAGE */
+
+#section2{
+
+    width: 100%;
+    background: #005f697c;
+}
+.second-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.online-tutorial{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 35px;
+    text-align: center;
+    font-family: 'WindSong', cursive;
+    color: honeydew;
+}
+
+.learn-2 span img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    width: 89%;
+    height: 90%;
+    border-radius: 10px;
+}
+
+
+/* THIRD SECTION OF THE PAGE */
+.contact{
+    font-family: 'WindSong', cursive;
+    color: #005f69;
+    display: flex;
+    justify-content: center;
+    background: transparent;
+}
+.third-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.message-us{
+    font-family: 'WindSong', cursive;
+}
+
+.message-us input.input{
+    width: 50%;
+    height: 30px;
+    margin: 10px;
+}
+
+.textarea{
+    margin: 10px;
+}
+.message-us input.submit{
+    width: 130px;
+    height: 35px;
+    background: rgb(223, 241, 223);
+    color: #005f69;
+    border: 3px solid transparent;
+    border-radius: 2px;
+    font-family: 'WindSong', cursive;
+    font-size: 16px;
+    transition: .2s;
+}
+.message-us input.submit:hover{
+    background: #005f69;
+    color: ivory;
+    border: 3px solid transparent;
+}
+.contact-icon{
+    /* background: #005f697c;
+    width: 30%;
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: auto auto;
+    text-align: center;
+    padding-top: 100px; */
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+
+    
+}
+.icon{
+    font-size: 100px;
+}
+.contact-icon a{
+    color: #385a64;
+}
+.contact-icon a:hover{
+    color: #ff735c;
+}
+
+/* FOOTER PAGE */
+#footer{
+    width: 100%;
+    height: 80px;
+    background: #04393f;
+    color: ivory;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+#footer span p{
+    font-size: 40px;
+    margin: 0;
+    font-family: 'WindSong', cursive;
+}
