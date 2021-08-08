@@ -82,7 +82,7 @@ nav#navbar{
     align-items: center;
     justify-content: center;
     text-align: center;
-    font-family: 'WindSong', cursive;
+    font-family: 'WindSong';
  }
 
 /* SECOND SECTION OF THE PAGE */
@@ -105,7 +105,7 @@ nav#navbar{
     align-items: center;
     margin: 35px;
     text-align: center;
-    font-family: 'WindSong', cursive;
+    font-family: 'WindSong';
     color: honeydew;
 }
 
@@ -135,7 +135,7 @@ nav#navbar{
     
 }
 .message-us{
-    font-family: 'WindSong', cursive;
+    font-family: 'WindSong';
 }
 
 .message-us input.input{
@@ -154,7 +154,7 @@ nav#navbar{
     color: #005f69;
     border: 3px solid transparent;
     border-radius: 2px;
-    font-family: 'WindSong', cursive;
+    font-family: 'WindSong';
     font-size: 16px;
     transition: .2s;
 }
@@ -186,5 +186,5 @@ nav#navbar{
 #footer span p{
     font-size: 40px;
     margin: 0;
-    font-family: 'WindSong', cursive;
+    font-family: 'WindSong';
 }
