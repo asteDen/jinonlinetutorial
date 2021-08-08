@@ -122,7 +122,7 @@ nav#navbar{
 
 /* THIRD SECTION OF THE PAGE */
 .contact{
-    font-family: 'WindSong', cursive;
+    font-family: 'WindSong';
     color: #005f69;
     display: flex;
     justify-content: center;
